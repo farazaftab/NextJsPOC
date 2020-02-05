@@ -1,0 +1,22 @@
+{
+  "name": "nextpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "NODE_ENV=qa1 next build",
+    "start": "NODE_ENV=qa1 node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "dotenv": "8.2.0",
+    "isomorphic-unfetch": "3.0.0",
+    "express": "4.17.1"
+  }
+}
