@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "NODE_ENV=qa1 next build",
+    "tsbuild": "next build && tsc --project tsconfig.server.json",
     "start": "NODE_ENV=qa1 node server.js"
   },
   "keywords": [],
@@ -18,5 +19,13 @@
     "dotenv": "8.2.0",
     "isomorphic-unfetch": "3.0.0",
     "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.12",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "16.8.4",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
   }
 }

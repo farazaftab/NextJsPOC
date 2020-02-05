@@ -42,10 +42,10 @@ testem.log
 Thumbs.db
 
 # log Files
-/node-logs
+/.next
 
 
-# Searshdex
+# next
 /src/biz
 
 # Searshdex

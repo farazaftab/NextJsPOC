@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-unfetch'
 import HelloWorld from '../component/hello-world'
 
-function HomePage({ stars }) {
+function HomePage({stars }: any) {
     return (
         <div>
             <p>Hello Next.js</p>
